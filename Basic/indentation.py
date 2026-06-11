@@ -1,6 +1,10 @@
+# Python has commenting capability for the purpose of in-code documentation.
+# Comments start with a #, and Python will render the rest of the line as a comment:
+
+
 # Python uses indentation to indicate a block of code.
-#if 5 > 2:
-  #print("Five is greater than two!")
+if 5 > 2:
+  print("Five is greater than two!")
 
 # Python will give you an error if you skip the indentation:
 #if 5 > 2:
@@ -13,6 +17,6 @@
         #print("Five is greater than two!") 
 
 # You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
-if 5 > 2:
- print("Five is greater than two!")
-        print("Five is greater than two!")        
+#if 5 > 2:
+ #sprint("Five is greater than two!")
+       # print("Five is greater than two!")        
