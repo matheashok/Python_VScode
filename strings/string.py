@@ -27,10 +27,7 @@ ut labore et dolore magna aliqua."""
 print(a)
 
 # three single quotes
-b = '''Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
+b = ''''''
 
 print(b)'''
 
