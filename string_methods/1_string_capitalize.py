@@ -13,6 +13,8 @@ print (x)'''
 # Syntax
 # string.capitalize()
 
+# Parameter Values : No parameters
+
 # Example
 # The first character is converted to upper case, 
 # and the rest are converted to lower case:
