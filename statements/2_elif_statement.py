@@ -4,7 +4,7 @@
 # The elif keyword allows you to check multiple expressions for True and execute a block of code
 #                                              as soon as one of the conditions evaluates to True.
 
-# Example : Get your own Python Server
+# Example : 
 
 '''a = 33
 b = 33

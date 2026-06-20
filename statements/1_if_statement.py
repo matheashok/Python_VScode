@@ -12,7 +12,7 @@ Greater than or equal to: a >= b
 # These conditions can be used in several ways, most commonly in "if statements" and loops.
 # An "if statement" is written by using the if keyword.
 
-# Example : Get your own Python Server
+# Example : 
 # If statement:
 
 '''a = 33

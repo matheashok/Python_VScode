@@ -2,7 +2,7 @@
 # The else keyword catches anything which isn't caught by the preceding conditions.
 # The else statement is executed when the if condition (and any elif conditions) evaluate to False.
 
-# Example : Get your own Python Server
+# Example : 
 
 '''a = 200
 b = 33
