@@ -197,3 +197,11 @@ x1.grad.zero_
 # result will be accumulated each time you run this program'''
 
 
+'''import torch.nn as nn
+
+model = nn.Linear(5, 1)
+loss = nn.MSELoss()
+print(model)
+print(loss)'''
+
+
