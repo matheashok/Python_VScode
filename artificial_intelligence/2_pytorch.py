@@ -160,3 +160,26 @@ for epoch in range(100):
 
 print(model.weight)
 print(model.bias)'''
+
+# Example: 
+
+'''import torch
+
+# Enabling autograd using flag requires_grad=True
+x = torch.tensor(2.0, requires_grad=True)
+
+# 2x +3 
+y = 2*x + 3
+
+print(y)
+# Output
+# tensor(7., grad_fn=<AddBackward0>)
+
+# It started backward propagation and goes until leaf node, nothing but starting point of computational graph
+y.backward()
+
+# print x.grad to see the gradient
+# Please note, unless you execute y.backward(), backward propagation won't start
+print(x.grad)
+# Output : tensor(2.) because derivative of (2x + 3) is 2'''
+
