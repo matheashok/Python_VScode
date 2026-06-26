@@ -126,3 +126,37 @@ print(optimizer)'''
 # Creates mini-batches
 # Shuffles data
 # Speeds up training
+
+# Example: 
+
+'''import torch
+import torch.nn as nn
+
+# Create model
+model = nn.Linear(1, 1)
+
+# Loss function
+loss_fn = nn.MSELoss()
+
+# Optimizer
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+
+# Data
+x = torch.tensor([[1.0], [2.0], [3.0]])
+y = torch.tensor([[2.0], [4.0], [6.0]])
+
+# Training loop
+for epoch in range(100):
+
+    prediction = model(x)
+
+    loss = loss_fn(prediction, y)
+
+    optimizer.zero_grad()
+
+    loss.backward()
+
+    optimizer.step()
+
+print(model.weight)
+print(model.bias)'''
