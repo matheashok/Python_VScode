@@ -183,3 +183,17 @@ y.backward()
 print(x.grad)
 # Output : tensor(2.) because derivative of (2x + 3) is 2'''
 
+# Example 2 : We need to apply chain rule here as it is a function, g(x) i.e. d/dx(2x+3)²
+
+'''import torch
+
+x1 = torch.tensor(3.0, requires_grad=True)
+y = (2*x1 + 3)**2
+print(y) # tensor(81., grad_fn=<PowBackward0>)
+y.backward() # backward propagation initiated
+print(x1.grad) # Printing gradinet of x :  tensor(36.)
+x1.grad.zero_ 
+# if we don't set x1.grad.zero_ then 
+# result will be accumulated each time you run this program'''
+
+
