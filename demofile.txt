@@ -1,0 +1,52 @@
+Here is a sample text file that you can use to practice Python file handling (open(), read(), readline(), 
+                                                                   readlines(), write(), append(), etc.).
+
+Sample demofile.txt
+Welcome to Python File Handling.
+Python is easy to learn.
+Files help us store data permanently.
+Reading files is simple.
+Writing files is also easy.
+Appending data keeps the existing content.
+Always remember to close the file.
+Have a great day learning Python!
+Sample 2: Student Data
+Name: Ashok
+Age: 25
+Course: Python Programming
+City: Hyderabad
+
+Name: Priya
+Age: 22
+Course: Data Science
+City: Bengaluru
+
+Name: Rahul
+Age: 24
+Course: Artificial Intelligence
+City: Chennai
+Sample 3: Product List
+Laptop,65000
+Mouse,700
+Keyboard,1200
+Monitor,15000
+Printer,8500
+Webcam,2500
+
+This is useful for practicing:
+
+Reading line by line
+Splitting strings using split(",")
+Converting prices to integers
+Sample 4: Employee Data
+101,John,HR,45000
+102,Alice,IT,65000
+103,Bob,Finance,55000
+104,Emma,Marketing,50000
+105,David,Sales,48000
+Sample 5: Quotes
+Success comes from consistent practice.
+Learning never stops.
+Mistakes are opportunities to improve.
+Programming is learned by writing code.
+Practice makes perfect.
