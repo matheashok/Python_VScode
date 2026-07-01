@@ -36,3 +36,6 @@
 '''with open("demofile.txt", "w") as file:
     file.write("Hello, World!")'''
 
+'''with open("demofile1.txt", "w") as file:
+    file.write("Hello, World!")'''
+
